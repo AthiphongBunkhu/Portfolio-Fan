@@ -50,9 +50,9 @@ export default {
   setup() {
     const open = ref(false)
     const Links = [
-      { name: 'Home', link: '/' },
-      { name: 'About', link: '/About' },
-      { name: 'Contact', link: '/contact' },
+      { name: 'Home', link: '#Home' },
+      { name: 'About', link: '#About' },
+      { name: 'Contact', link: '#contact' },
     ]
     return { Links, open }
   },
