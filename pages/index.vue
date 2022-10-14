@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="font-mono">
-    <div
+    <div id="Home"
       class="h-screen lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden"
     >
       <Nav v-show="!showMobileMenu" @showMobileMenu="showMobileMenu = true"  />
@@ -30,7 +30,7 @@
       </div>
     </div>
     <!-- about -->
-    <div id="#Aboutme" class="px-10 dark:bg-slate-900">
+    <div id="About" class="px-10 dark:bg-slate-900">
       <div
         class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
       >
@@ -191,3 +191,8 @@ export default {
   },
 }
 </script>
+<style>
+  html {
+  scroll-behavior: smooth;
+}
+</style>
