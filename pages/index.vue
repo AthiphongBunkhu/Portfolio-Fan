@@ -14,6 +14,7 @@
       <img
         class="fixed absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
         src="images\my_photo_01.png"
+        alt="Athiphong"
       />
       <!-- text -->
       <div
@@ -178,17 +179,14 @@
 </template>
 
 <script>
-import Nav from '../components/Nav.vue'
-import Footer from '../components/Footer.vue'
 
 export default {
   name: 'IndexPage',
-  components: { Nav, Footer },
   data() {
     return {
       showMobileMenu: false,
     }
-  },
+  }
 }
 </script>
 <style>

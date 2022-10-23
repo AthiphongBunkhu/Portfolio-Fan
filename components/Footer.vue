@@ -8,11 +8,11 @@
         </div>
         <div class="flex gap-2">
           <a href="https://www.facebook.com/athiphong.bunkhu/">
-            <img class="w-4 cursor-pointer" src="images/facebook.png" alt="" />
+            <svg-facebook/>
           </a>
           <a href="https://www.instagram.com/_fans.f/?next=%2F">  
-            <img class="w-4 cursor-pointer" src="images/instagram.png" alt="" /> 
-          </a>
+            <svg-facebook/>
+          </a>>
         </div>
       </div>
     </div>
